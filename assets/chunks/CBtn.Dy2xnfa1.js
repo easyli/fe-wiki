@@ -1,0 +1,1 @@
+import{d as e,o,c as s,t as n,_ as a}from"./framework.BtolS5k4.js";const c={class:"btn"},_=e({__name:"CBtn",props:["text"],setup(t){return(r,p)=>(o(),s("button",c,n(t.text),1))}}),i=a(_,[["__scopeId","data-v-d115af25"]]);export{i as C};
