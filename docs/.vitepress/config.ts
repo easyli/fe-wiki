@@ -5,7 +5,7 @@ import { resolve } from 'path'
 import { SearchPlugin } from 'vitepress-plugin-search'
 import flexSearchIndexOptions from 'flexsearch'
 
-const base = '/docs/'
+const base = '/fe-wiki/'
 
 var options = {
   ...flexSearchIndexOptions,

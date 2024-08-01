@@ -4,7 +4,7 @@ type NavData = {
   title: string
   items: NavType[]
 }
-const base = '/docs/'
+const base = '/fe-wiki/'
 export const NAV_DATA: NavData[] = [
   // 常用工具
   {
