@@ -11,7 +11,7 @@ const route = useRoute()
     <img
       v-if="!DEV"
       class="visitor"
-      :src="`https://visitor-badge.laobi.icu/badge?page_id=lining.notes.${route.path}`"
+      :src="`https://visitor-badge.laobi.icu/badge?page_id=easyli.fe-wiki.${route.path}`"
       title="当前页面累计访问数"
       onerror="this.style.display='none'"
     />

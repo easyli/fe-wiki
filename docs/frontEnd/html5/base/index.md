@@ -6,9 +6,6 @@ HTML（HyperText Markup Language）是一种用于创建网页和网页应用程
 
 HTML 文档由一系列嵌套的 HTML 标签组成。一个基本的 HTML 文档通常包含以下结构：
 
-> [!TIP]
-> 提示
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -54,7 +51,21 @@ HTML5 引入了许多新特性，如语义化标签（`<header>`、`<footer>`、
 
 学习 HTML 最重要的是通过实践来加深理解。创建简单的网页、布局、添加样式和图像，然后逐渐增加复杂性，学习如何使用 CSS 和 JavaScript 与 HTML 结合，从而实现更丰富的用户体验。
 
-> [!TIP]
+在进阶阶段，可以学习响应式设计、Web Accessibility（无障碍性）、HTML 表单验证、CSS 框架等，进一步提高网页开发技能，创造出更加优秀的网页和网页应用程序。
+
+::: tip 总结
+HTML 是网页开发的基础，它通过一系列标签和元素来描述网页的结构和内容。HTML5 引入了许多新特性，使得网页开发更加强大和灵活。通过学习 HTML，你可以创建各种各样的网页，并为用户提供丰富的在线体验。
+:::
+
+## Github Alert Style 测试
+
+> [!TIP] xxx
+> 提示
+
+> [!NOTE] Nota bene
+> The custom title will replace the regular title.
+
+> [!TIP] xxx
 > Just a quick tip, that you can use `> [!TIP]` to create
 > a GitHub-style alert in your README.md like this.
 
@@ -73,9 +84,12 @@ HTML5 引入了许多新特性，如语义化标签（`<header>`、`<footer>`、
 > [!CAUTION]
 > Negative potential consequences of an action.
 
-在进阶阶段，可以学习响应式设计、Web Accessibility（无障碍性）、HTML 表单验证、CSS 框架等，进一步提高网页开发技能，创造出更加优秀的网页和网页应用程序。
+## 折叠的写法
 
-::: tip 总结
-HTML 是网页开发的基础，它通过一系列标签和元素来描述网页的结构和内容。HTML5 引入了许多新特性，使得网页开发更加强大和灵活。通过学习 HTML，你可以创建各种各样的网页，并为用户提供丰富的在线体验。
+::: details Notice 带折叠的示例
+1. Rollup and esbuild do not support using `enforce` to control the order of plugins. Users need to maintain the order manually.
+2. webpack's id filter is outside of loader logic; an additional hook is needed for better perf on webpack. In Rollup and Vite, this hook has been polyfilled to match the behaviors. See for the following usage examples.
+3. Although esbuild can handle both JavaScript and CSS and many other file formats, you can only return JavaScript in `load` and `transform` results.
+4. Currently, `writeBundle` is only serves as a hook for the timing. It doesn't pass any arguments.
+5. Rspack supports `resolveId` with a minimum required version of v1.0.0-alpha.1.
 :::
-
